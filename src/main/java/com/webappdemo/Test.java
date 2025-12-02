@@ -152,4 +152,16 @@ public class Test {
         String ascii = testService.getCurrentScene();
         return "<pre>" + ascii + "</pre>";
     }
+
+    @GetMapping(value = "/bullet", produces = MediaType.TEXT_HTML_VALUE)
+    public String getBulletFrame() {
+        String ascii = testService.getCurrentFrame();
+        return "<pre>" + ascii + "</pre>";
+    }
+
+    @GetMapping(value = "/dogfight", produces = MediaType.TEXT_HTML_VALUE)
+    public String getDogfightFrame() {
+        String ascii = testService.getCurrentFrame1();
+        return "<pre>" + ascii + "</pre>";
+    }
 }
