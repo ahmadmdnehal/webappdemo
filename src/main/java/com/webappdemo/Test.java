@@ -114,4 +114,33 @@ public class Test {
 
         return "<pre>" + sb.toString() + "</pre>";
     }
+    @GetMapping("/epic-jet-scene")
+    public String getEpicJetScene() {
+
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("                                                    /\\       \n");
+        sb.append("                                   ________________/  \\___   \n");
+        sb.append("                       ___________/__==______==___/      \\______________       \n");
+        sb.append("                    __/                                         .-^^-.   \\__    \n");
+        sb.append("                  _/                                          .-/_____ \\-.  \\_  \n");
+        sb.append("                _/             STEALTH F-22 RAPTOR          .- /_/ |_|\\_\\ \\ -. \\ \n");
+        sb.append("               /                                            \\  \\__/_|_\\__/ /  / /\n");
+        sb.append("      ________/___________      _________            ______  '-----------'  / / \n");
+        sb.append("     /                    \\____/        \\___________/      \\______________/ /  \n");
+        sb.append("    /  ESCORT Su-30s           \\                         /                 /   \n");
+        sb.append("   /____________________________\\_______________________/_________________/    \n");
+        sb.append("           \\                         \\         |        /                      \n");
+        sb.append("            \\                         \\        |       /                       \n");
+        sb.append("             \\_________________________\\       |      /__________________      \n");
+        sb.append("                 |   |           |     /      / \\    |   |        |   |       \n");
+        sb.append("                 |   |           |    /      /   \\   |   |        |   |       \n");
+        sb.append("                 |___|___________|___/______/_____\\__|___|________|___|       \n");
+        sb.append("                   /_/           \\_\\            /_/        \\_\\               \n");
+        sb.append("          . . .  missiles >>>>>>>   *      *       *      *        *   . . .   \n");
+        sb.append("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+        sb.append("             CARRIER DECK                    OCEAN SURFACE / WAVES             \n");
+
+        return "<pre>" + sb.toString() + "</pre>";
+    }
 }
